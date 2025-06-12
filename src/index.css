@@ -1,0 +1,47 @@
+body {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2{
+  justify-self: center;
+}
+
+th, th:hover {
+  border-bottom: 3px solid black;
+  padding: 5px;
+  background-color: lightgray;
+  font-size: 18px;
+}
+
+tr {
+  align-items: center;
+}
+
+tr:hover{
+  background-color: gray;
+  cursor: pointer;
+}
+
+td {
+  padding: 20px;
+  font-size: 16px;
+}
+
+p {
+  font-style: italic;
+  font-size: 18px;
+}
+
+li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+button {
+  width: 200px;
+  margin-left: 60px;
+  height: 2.5em;
+  font-weight: bold;
+}
